@@ -1,0 +1,430 @@
+/*
+ Theme Name:   Divi Child Theme
+ Theme URI:    http://elegantthemes.com/
+ Description:  Divi Child Theme
+ Author:       ElegantThemes
+ Author URI:   http://elegantthemes.com
+ Template:     Divi
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ Text Domain:  divi-child-theme
+*/
+/* Body */
+/* Header */
+/* Top Header */
+/* Main Header */
+#main-header:before, #main-header:after {
+  content: '';
+  width: 40%;
+  height: 3px;
+  display: block;
+  background-color: #dbdcde;
+  float: right;
+}
+
+/* Vertical Navigation */
+/* Header Style */
+/* Fullwidth Header */
+/* Hide Header */
+/* Hide Logo */
+/* Fullwidth Top Header */
+/* Hide Search Icon */
+/* Button */
+/* Input */
+/* Footer */
+.page #top-menu a,
+.page #top-header {
+  color: #fff !important;
+}
+
+.page .st3,
+.page .texto-logo,
+.page .st0.folha,
+.page .st0.folha-1,
+.page .st0.folha-2,
+.page .st0.folha-3,
+.page .st0.folha-4,
+.page .st0.folha-5 {
+  fill: #fff;
+}
+
+.single #top-menu a,
+.single #top-header {
+  color: #fff !important;
+}
+
+.single .st3,
+.single .texto-logo,
+.single .st0.folha,
+.single .st0.folha-1,
+.single .st0.folha-2,
+.single .st0.folha-3,
+.single .st0.folha-4,
+.single .st0.folha-5 {
+  fill: #fff;
+}
+
+.search #top-menu a,
+.search #top-header {
+  color: #fff !important;
+}
+
+.search .st3,
+.search .texto-logo,
+.search .st0.folha,
+.search .st0.folha-1,
+.search .st0.folha-2,
+.search .st0.folha-3,
+.search .st0.folha-4,
+.search .st0.folha-5 {
+  fill: #fff;
+}
+
+.archive #top-menu a,
+.archive #top-header {
+  color: #fff !important;
+}
+
+.archive .st3,
+.archive .texto-logo,
+.archive .st0.folha,
+.archive .st0.folha-1,
+.archive .st0.folha-2,
+.archive .st0.folha-3,
+.archive .st0.folha-4,
+.archive .st0.folha-5 {
+  fill: #fff;
+}
+
+.category #top-menu a,
+.category #top-header {
+  color: #fff !important;
+}
+
+.category .st3,
+.category .texto-logo,
+.category .st0.folha,
+.category .st0.folha-1,
+.category .st0.folha-2,
+.category .st0.folha-3,
+.category .st0.folha-4,
+.category .st0.folha-5 {
+  fill: #fff;
+}
+
+.home #top-menu a,
+.home #top-header {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.home .st3,
+.home .texto-logo,
+.home .st0.folha,
+.home .st0.folha-1,
+.home .st0.folha-2,
+.home .st0.folha-3,
+.home .st0.folha-4,
+.home .st0.folha-5 {
+  fill: #102541;
+}
+
+.home .st3 {
+  fill: #792F3F !important;
+}
+
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of3 {
+  width: 23%;
+  margin-right: 2%;
+}
+
+.et_pb_blog_grid .column.size-1of3:nth-child(4n), .et_pb_blog_grid .column.size-1of2:nth-child(3n) {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of4 {
+    width: 100%;
+  }
+}
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of4 {
+  width: 24%;
+  margin-right: 1%;
+}
+
+.et_pb_column_4_4 .et_pb_blog_grid[data-columns]::before {
+  content: "4 .column.size-1of4";
+}
+
+.et_pb_blog_grid .et_pb_post {
+  border: 0px;
+  border-bottom: 4px solid #1b2445;
+}
+
+.page .entry-title a strong {
+  width: 100%;
+  float: left;
+  color: #949494;
+  font-size: 14px;
+}
+
+.home .entry-title a strong {
+  width: auto !important;
+  float: none !important;
+  text-transform: uppercase !important;
+  color: #949494;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.home .entry-title {
+  width: auto !important;
+  float: none !important;
+  text-transform: uppercase !important;
+  color: #949494;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.home .et_pb_blog_grid .et_pb_post {
+  border-bottom: 0px !important;
+}
+
+.home .more-link {
+  border: #902742 solid 1px;
+  color: #902742 !important;
+  border-radius: 5px;
+  padding: 5px 25px;
+  margin-top: 0px !important;
+  font-weight: 800;
+}
+
+.home .post-content {
+  color: #e0e1e3 !important;
+}
+
+.entry-title-blog {
+  text-transform: uppercase;
+  color: #902742;
+  font-weight: 800;
+  margin-top: 7px !important;
+}
+
+.post-fullwidth .published:before,
+.post-single-page .published:before {
+  content: "";
+  width: 19px;
+  height: 15px;
+  background: url("img/icon-date.png") left top no-repeat;
+  display: table;
+  float: left;
+  margin-right: 5px;
+}
+
+.post-fullwidth .published:before,
+.post-single-page .published:before {
+  content: "";
+  width: 19px;
+  height: 15px;
+  background: url("img/icon-date.jpg") left top no-repeat;
+  display: table;
+  float: left;
+  margin-right: 5px;
+  top: 4px;
+  position: relative;
+}
+
+.post-fullwidth .post-meta a:before,
+.post-single-page .post-meta a:before {
+  content: "";
+  width: 19px;
+  height: 15px;
+  background: url("img/icon-category.jpg") left top no-repeat;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  top: 4px;
+  position: relative;
+}
+
+.post-fullwidth .post-meta a:after,
+.post-single-page .post-meta .comments-number:before {
+  content: "";
+  width: 19px;
+  height: 15px;
+  background: url("img/icon-comments.jpg") left top no-repeat;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  top: 4px;
+  position: relative;
+}
+
+.comments-number a:before {
+  content: none !important;
+}
+
+.more-link {
+  float: right;
+  color: #1b2445;
+  margin-top: -21px;
+  margin-bottom: 10px;
+}
+
+.post-fullwidth .more-link {
+  background: #1b2445;
+  color: #fff;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.post-fullwidth .post-meta {
+  margin-bottom: 30px;
+}
+
+.name-persona {
+  width: 100%;
+  padding: 18px 0 14px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #f9f9f9;
+}
+
+.et_pb_button_module_wrapper {
+  margin-bottom: 1.27% !important;
+}
+
+.et_pb_team_member_description h4 {
+  margin: 18px 0;
+}
+
+.et_pb_team_member_description p:first-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.et_pb_team_member_description p {
+  border-bottom: 3px solid #f9f9f9;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+}
+
+.show-gallery {
+  display: block;
+}
+
+.hide-gallery {
+  display: none;
+}
+
+.thumbnail-blog {
+  width: 70%;
+  margin-right: 2%;
+  float: left;
+}
+
+.post-fullwidth .post-content {
+  float: left;
+  width: 28%;
+  margin-top: 84px;
+}
+
+.et_pb_post {
+  display: table;
+}
+
+.post-date-sidebar {
+  position: absolute;
+  right: 0px;
+  font-weight: 800;
+  color: #dbdcde;
+}
+
+.fwidget {
+  width: 100%;
+}
+
+#footer-widgets .footer-widget li {
+  padding-left: 0px !important;
+}
+
+#footer-widgets .footer-widget li:before {
+  content: none !important;
+}
+
+#footer-info {
+  width: 100%;
+  text-align: center;
+}
+
+.et_pb_gutters3 .footer-widget, .et_pb_gutters3.et_pb_footer_columns3 .footer-widget .fwidget {
+  margin-bottom: 4% !important;
+}
+
+.post-recents-sidebar,
+.cat-item,
+.widget_nav_menu .menu-item {
+  border-bottom: 4px solid #dbdcde;
+  padding: 10px 0;
+  margin-bottom: 10px !important;
+  width: 100%;
+  display: table;
+}
+
+.home .post-recents-sidebar {
+  border: 7px !important;
+}
+
+.home .post-date-sidebar {
+  bottom: 0px !important;
+}
+
+.footer-widget #et-info a {
+  color: #fff !important;
+}
+
+#searchsubmit {
+  background-color: transparent !important;
+  border: 0px !important;
+  width: 40px !important;
+  padding: 0px !important;
+  text-indent: -9999px;
+  background: url("img/btn-search.jpg") center no-repeat;
+}
+
+.widget_recent_entries .widgettitle,
+.widget_categories .widgettitle,
+.widget_search .widgettitle {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #1b2445;
+}
+
+.post-recents-sidebar a {
+  font-size: 12px;
+  font-weight: 800;
+  color: #1b2445;
+  height: 40px;
+  float: left;
+  width: 80%;
+}
+
+.post-recents-sidebar a img {
+  float: left;
+  margin-right: 5px;
+}
+
+#logo {
+  width: 300px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
