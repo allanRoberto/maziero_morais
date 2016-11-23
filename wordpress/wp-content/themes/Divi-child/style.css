@@ -487,4 +487,43 @@ body .gform_wrapper .top_label div.ginput_container {
   background-color: #7d233c !important;
 }
 
+.newsletters .gform_body {
+  width: 80% !important;
+  float: left;
+}
+
+.newsletters .gform_body input[type="text"] {
+  padding-left: 25px !important;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  color: #6a6f7a;
+  border-radius: 3px;
+  border: 1px solid #dbdddf;
+}
+
+.newsletters .gfield_label {
+  color: #fff !important;
+}
+
+.newsletters .gform_footer {
+  width: 20% !important;
+  float: left;
+  clear: none !important;
+}
+
+.newsletters li.gfield.gfield_error {
+  border: 0px !important;
+  background: transparent !important;
+}
+
+.newsletters .gform_footer input[type="submit"] {
+  width: 100% !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  border-radius: 4px !important;
+  height: 45px;
+  margin-top: 10px !important;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
