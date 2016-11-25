@@ -59,7 +59,6 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 										$first_video
 									);
 								} else if ( ! in_array( $post_format, array( 'gallery', 'link', 'quote' ) ) && 'on' === et_get_option( 'divi_thumbnails', 'on' ) && '' !== $thumb ) {
-									print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height );
 								} else if ( 'gallery' === $post_format ) {
 									et_pb_gallery_images();
 								}
