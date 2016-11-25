@@ -1,12 +1,12 @@
  # The project repo name. (one word: no spaces, dashes, or underscores)
-set :application, "maziero"
+set :application, "maziero_morais"
 
 # Legacy from porting from drupal, best to just leave this as "default"
 set :domains, ["default"]
 
 # Set the repository type and location to deploy from.
 set :scm, :git
-set :repository,  "git@github.com:allanRoberto/maziero.git"
+set :repository,  "git@github.com:allanRoberto/maziero_morais.git"
 # set :scm, :subversion
 # set :repository,  "https://svn.example.com/svn/#{application}/trunk/"
 # set(:scm_password) { Capistrano::CLI.password_prompt("SCM Password: ") }
