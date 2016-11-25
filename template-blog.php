@@ -1,5 +1,10 @@
 <?php
 
+/* /*
+Template Name: Blog
+*/
+
+
 get_header();
 
 $show_default_title = get_post_meta( get_the_ID(), '_et_pb_show_title', true );
@@ -20,7 +25,10 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 </div>
 <div class="et_pb_section et_section_regular">
 	<div class="et_pb_row et_pb_row_1-4_3-4">
-		<div class="et_pb_column et_pb_column_4_4">
+		<div class="et_pb_column et_pb_column_1_4">
+			<?php get_sidebar(); ?>
+		</div>
+		<div class="et_pb_column et_pb_column_3_4">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if (et_get_option('divi_integration_single_top') <> '' && et_get_option('divi_integrate_singletop_enable') == 'on') echo(et_get_option('divi_integration_single_top')); ?>
 
