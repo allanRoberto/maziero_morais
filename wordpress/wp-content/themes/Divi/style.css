@@ -186,6 +186,10 @@ strong {
 	font-weight: bold;
 }
 
+.teste {
+	display: block;
+}
+
 cite,
 em,
 i {
